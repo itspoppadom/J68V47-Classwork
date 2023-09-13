@@ -19,11 +19,13 @@ public class NameInput {
         float MPG = MilesCovered/FuelCap ;
         System.out.format("Your car has the efficiency of " + MPG + "Miles Per Gallon");
         System.out.println("Would you like to turn your Miles per Gallon into Miles per Litre? (use True for Yes, False for No");
+
         String Choice1 = input.nextLine();
+
         boolean choice = Boolean.parseBoolean(Choice1);
-        boolean choi = True;
-        if boolean choi == True {
-            MPL = MPG * 0.425144 ;
+
+        /**if boolean choi = True {
+            MPL = MPG * 0.425144 ;**/
         }
     }
-}
+
