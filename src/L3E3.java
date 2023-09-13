@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import static java.lang.Math.*;
 
 public class L3E3 {
     public static void main(String[] args) {
@@ -13,6 +12,8 @@ public class L3E3 {
         int Years = input.nextInt();
         int NoMonths = Years * 12 ;
         float MonthlyRate = InterestRate / 12;
-        float MonthlyPay = LoanV(MonthlyRate / (1 - Math.pow(-NoMonths, 1 + MonthlyRate)));
+        double MonthlyPay = LoanV * (MonthlyRate / (1 - Math.pow( 1 + MonthlyRate, -NoMonths)));
+        MonthlyPay = Math.round(MonthlyPay * 100.0) / 100.0;
+        System.out.format("Your monthly payment is: £" + MonthlyPay );
     }
 }
