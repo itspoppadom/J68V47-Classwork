@@ -39,12 +39,10 @@ public class L4ExtraA {
                 } else if (guess_3 <=random_num) {
                     System.out.println("Wrong! The number is higher!");
                     lives = lives - 1 ;
-                    System.out.println("You've lost one life but you can try again! "+ "     " +"Lives: " + lives);
 
                 }else if (guess_3 >= random_num) {
                     System.out.println("Wrong! The number is lower!");
                     lives = lives - 1;
-                    System.out.println("You've lost one life but you can try again! " + "     " + "Lives: " + lives);
                 }
 
                 if (lives <= 0 ){
@@ -100,12 +98,10 @@ public class L4ExtraA {
                 } else if (guess_3 <=random_num) {
                     System.out.println("Wrong! The number is higher!");
                     lives = lives - 1 ;
-                    System.out.println("You've lost one life but you can try again! "+ "     " +"Lives: " + lives);
 
                 }else if (guess_3 >= random_num) {
                     System.out.println("Wrong! The number is lower!");
                     lives = lives - 1;
-                    System.out.println("You've lost one life but you can try again! " + "     " + "Lives: " + lives);
                 }
 
                 if (lives <= 0 ){
@@ -125,12 +121,10 @@ public class L4ExtraA {
                 } else if (guess_3 <=random_num) {
                     System.out.println("Wrong! The number is higher!");
                     lives = lives - 1 ;
-                    System.out.println("You've lost one life but you can try again! "+ "     " +"Lives: " + lives);
 
                 }else if (guess_3 >= random_num) {
                     System.out.println("Wrong! The number is lower!");
                     lives = lives - 1;
-                    System.out.println("You've lost one life but you can try again! " + "     " + "Lives: " + lives);
                 }
 
                 if (lives <= 0 ){
