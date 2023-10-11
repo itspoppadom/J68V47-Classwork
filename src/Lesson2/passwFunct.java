@@ -1,3 +1,5 @@
+package Lesson2;
+
 import java.util.*;
 public class passwFunct {
     public static void main(String[] args) {

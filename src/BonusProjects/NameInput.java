@@ -1,3 +1,5 @@
+package BonusProjects;
+
 import java.util.*;
 public class NameInput {
 

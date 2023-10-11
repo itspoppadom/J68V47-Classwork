@@ -1,3 +1,5 @@
+package Lesson6;
+
 public class L6Example3 {
     public static void main(String[] args) {
         int count = 10;

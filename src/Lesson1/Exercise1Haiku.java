@@ -1,3 +1,5 @@
+package Lesson1;
+
 /** Exercise 1: Display a Haiku
  * @author Dominic Cameron
  * @version 1

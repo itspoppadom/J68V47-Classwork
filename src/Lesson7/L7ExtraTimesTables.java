@@ -1,5 +1,7 @@
+package Lesson7;
+
 import java.util.* ;
-public class Lesson7Ex1 {
+public class L7ExtraTimesTables {
     public static void main(String[] args) {
         int option ;
         Scanner input = new Scanner(System.in);
@@ -7,7 +9,7 @@ public class Lesson7Ex1 {
          System.out.println("Welcome to my Calculator");
          System.out.println("Type in a number to select what time of a math formula you'd like to solve");
          System.out.print("1. Adding \n 2. Subtracting \n 3. Multiplying \n 4. Division \n 5. Quit \n");
-            System.out.println("Enter an option (1-4) ");
+            System.out.println("Enter an option (1-5) ");
             option = input.nextInt();
             System.out.println("Option selected:" + option);
             if (option == 1){
@@ -27,11 +29,11 @@ public class Lesson7Ex1 {
                 SubNoA = input.nextInt();
                 System.out.println("Enter the second value.");
                 SubNoB = input.nextInt();
-                System.out.println("Your Equation is: " + SubNoA + " - " + SubNoB + " = " + (SubNoA * SubNoB));
+                System.out.println("Your Equation is: " + SubNoA + " - " + SubNoB + " = " + (SubNoA - SubNoB));
             } else if (option == 3) {
                 int MulNoA ;
                 int MulNoB ;
-                System.out.println("Please enter the numbers you'd like to add together.");
+                System.out.println("Please enter the numbers you'd like multiply.");
                 System.out.println("Enter the first Value.");
                 MulNoA = input.nextInt();
                 System.out.println("Enter the second value.");
@@ -41,7 +43,7 @@ public class Lesson7Ex1 {
             } else if (option == 4 ) {
                 int DivNoA ;
                 int DivNoB ;
-                System.out.println("Please enter the numbers you'd like to add together.");
+                System.out.println("Please enter the numbers you'd like to divide.");
                 System.out.println("Enter the first Value.");
                 DivNoA = input.nextInt();
                 System.out.println("Enter the second value.");

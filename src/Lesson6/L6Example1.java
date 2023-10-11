@@ -1,3 +1,5 @@
+package Lesson6;
+
 public class L6Example1
 {
     public static void main(String[] args) {

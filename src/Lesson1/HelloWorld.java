@@ -1,3 +1,5 @@
+package Lesson1;
+
 /**
 * This is my first Java program designed to display the string Hello World
 * @author Dominic Cameron

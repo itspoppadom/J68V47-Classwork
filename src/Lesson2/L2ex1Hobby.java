@@ -1,3 +1,5 @@
+package Lesson2;
+
 import java.util.*;
 public class L2ex1Hobby {
 

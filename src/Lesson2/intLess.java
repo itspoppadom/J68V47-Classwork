@@ -1,5 +1,7 @@
+package Lesson2;
+
 import java.util.*;
-public class EngineBlocks {
+public class intLess {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("How many items? ");

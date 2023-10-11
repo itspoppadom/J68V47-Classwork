@@ -1,3 +1,5 @@
+package Lesson6;
+
 import java.util.*;
 import java.time.*;
 public class L6Ex2alt1 {
