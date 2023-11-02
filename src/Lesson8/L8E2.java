@@ -4,6 +4,8 @@ package Lesson8;
 // I have to use repetition to display each exam score on a separate line
 // calculate the average and display at the end of the program
 public class L8E2 {
+    // I've decided to create a subroutine which is going to hold my array of test scores and do all the calculations
+
     public static void TestScores(){
         int[] scores = {76, 87, 79,90,96,32,16,45,84,100};
         for (int value : scores){
