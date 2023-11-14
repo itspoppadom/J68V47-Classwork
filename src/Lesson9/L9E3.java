@@ -1,5 +1,6 @@
 package Lesson9;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class L9E3 {
@@ -7,15 +8,21 @@ public class L9E3 {
     public static int askQuestion(int number1, int number2) {
         Scanner scanner = new Scanner(System.in);
         System.out.format("What is %d + %d? ", number1, number2);
-        int userAnswer = scanner.nextInt();
-        // I have added an if statement to shut down the process if the user input is negative. Due to negatives
-        // being out of bounds for the scale of the program.
-        if (userAnswer <= 0) {
-            System.out.println("Adding positive numbers will always result in a positive, please try again!");
+        int userAnswer = 0;
+        try {
+            userAnswer = scanner.nextInt();
+            if (userAnswer < 0){
+                throw new ArithmeticException("A negative result is impossible in this program!");
+            } else {
+                System.out.println("Your answer is : " + userAnswer);
+            }
+            return userAnswer;
+        } catch (InputMismatchException e) {
+            System.out.println("Entered value is not a number");
+            System.out.println(e.toString());
             System.exit(1);
-        } else {
-            return  userAnswer;
         }
+
         return userAnswer;
     }
 
@@ -52,6 +59,7 @@ public class L9E3 {
         try {while (count <= 10 && lives > 0){
             userAnswer = askQuestion(count, count*count);
             answer = count + (count*count);
+
 
             if (answer == userAnswer){
                 score = correctAnswer(score);
