@@ -10,7 +10,7 @@ public class L11E1 {
             int userInput = input.nextInt();
             PrintWriter out = new PrintWriter(new FileWriter("Results.txt"));
             for (int i = 0; i <= 12; i++) {
-                out.format("%d x %d = %d \n", i, userInput, i * userInput);
+                out.format("%d x %d = %d %n", i, userInput, (i * userInput));
 
             }
             out.close();
